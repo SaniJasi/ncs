@@ -1,0 +1,61 @@
+footer {
+    background: #444447;
+    height: @footer;
+    margin-top: -@footer;
+    .sizing;
+    .logo {
+        background: none;
+        .size(235px,40px);
+        margin: 60px 0 0;
+        a {
+            font-size: 14px;
+            font-weight: @medium;
+            color: @w;
+            margin: 0;
+            padding-left: 80px;
+            position: relative;
+            width: auto;
+            height: auto;
+            float: left;
+            &:before {
+                background: url(../images/sprite.png) no-repeat 0 -55px;
+                .size(71px, 40px);
+                position: absolute;
+                top: -2px;
+                left: 0;
+                content: '';
+            }
+        }
+    }
+}
+.footer-box {
+    margin: 38px 0 0;
+    float: right;
+    ul {
+        float: right;   
+        clear: both;
+    }
+    li {
+        margin: 0 0 15px 34px;
+        float: left;
+        &:first-child {
+            margin-left: 0;
+        }
+    }
+    a {
+        font-size: 14px;
+        font-weight: 500;
+        color: #a0a0a1;
+        &:hover {
+            color: @w;
+        }
+    }
+}
+.copy {
+    font-size: 14px;
+    font-weight: @medium;
+    color: #777779;
+    text-align: right;
+    width: 100%;
+    float: left;
+}

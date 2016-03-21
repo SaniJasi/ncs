@@ -1,0 +1,107 @@
+.spanning {
+    clear: both;
+}
+.content {
+    width: 880px;
+    margin: 0 0 40px;
+    float: right;
+    .page-title {
+        margin: 0 0 25px;
+    }
+}
+.content-small {
+    width: 640px;
+}
+.categories-list {
+    margin: 0 0 25px;
+    a {
+        font-size: 16px;
+        line-height: 44px;
+        font-weight: @medium;
+        color: black;
+        border: 1px solid #d9d9d9;
+        .border-radius(1px);
+        margin: 0 10px 10px 0;
+        padding: 0 23px;
+        text-decoration: none;
+        float: left;
+        span {
+            color: @g;
+            margin-right: 10px;
+        }
+        &:hover {
+            background: @l;
+            border-color: @l;
+            color: @w;
+            span {
+                color: @w;
+            }
+        }
+    }
+    .active {
+        background: @l;
+        border-color: @l;
+        color: @w;
+        padding-left: 56px;
+        position: relative;
+        &:before {
+            content: '';
+            position: absolute;
+            .size(17px, 12px);
+            top: 15px;
+            left: 21px;
+            background: url(../images/sprite.png) no-repeat -300px -130px;
+        }
+        span {
+            color: @w;
+        }
+    }
+}
+.table-main-box {
+   border: 1px solid #d9d9d9; 
+   .main-table {
+    margin: 0;
+   }
+}
+.table-title {
+    font-size: 15px;
+    line-height: 53px;
+    color: @g;
+    font-weight: @medium;
+    border-bottom: 0;
+    padding: 0 20px;
+    strong {
+        color: black;
+        font-weight: @medium;
+    }
+}
+.small-white-table {
+    width: 440px;
+    margin: 0 0 40px;
+    table {
+        border: 1px solid #d9d9d9;
+        width: 100%;
+        th,td {
+            padding: 20px;
+        }
+        tr {
+            border-bottom: 1px solid #d9d9d9;
+            &:last-child {
+                border: 0;
+            }
+        }
+        th {
+            background: #f6f6f6;
+            font-size: 12px;
+            font-weight: @bold;
+            color: @g;
+        }
+        td {
+            background: @w;
+            font-size: 16px;
+        }
+        span {
+            color: #a5a5a5;
+        }
+    }
+}
