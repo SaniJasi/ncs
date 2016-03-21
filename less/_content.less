@@ -45,12 +45,21 @@
         padding-left: 56px;
         position: relative;
         &:before {
-            content: '';
+            font-family: 'icomoon' !important;
+            font-size: 17px;
+            color: @w;
+            speak: none;
+            font-style: normal;
+            font-weight: normal;
+            font-variant: normal;
+            text-transform: none;
+            line-height: 1;
+            -webkit-font-smoothing: antialiased;
+            -moz-osx-font-smoothing: grayscale;
             position: absolute;
-            .size(17px, 12px);
+            content: "\e92b";
             top: 15px;
             left: 21px;
-            background: url(../images/sprite.png) no-repeat -300px -130px;
         }
         span {
             color: @w;

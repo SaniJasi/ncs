@@ -53,21 +53,22 @@
         position: relative;
     }
     span {
-        background: url(../images/sprite.png) no-repeat -300px -126px;
+        font-size: 8px;
+        color: @g;
         position: absolute;
-        .size(14px,2px);
         top: 50%;
         -moz-transform: translate(0%,-50%);
         -webkit-transform: translate(0%,-50%);
         transform: translate(0%,-50%);
         right: 20px;
+        .rotate(180deg);
+        margin-top: -4px;
     }
 }
 .fb-collapsed {
     border-bottom: 0;
     .filter-title span {
-        background-position: -300px -100px;
-        .size(14px);
+        .rotate(0deg);
     }
 }
 
