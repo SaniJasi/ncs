@@ -21,7 +21,7 @@ header {
     }
 }
 .childrens {
-    background: url(../images/sprite.png) no-repeat -300px 0;
+    background: url(../images/childrens.png) no-repeat;
     .size(97px, 58px);
     margin: 19px 0 0;
     float: left;
@@ -47,8 +47,20 @@ header {
         float: left;
     }
 }
-.log-out {
-    border-left: 1px solid rgba(255,255,255,.5);
+.log-in {
+    padding-right: 0 !important;
+    a {
+        color: @l;
+        line-height: 36px;
+        text-align: center;
+        .size(78px, 36px);
+        background-color: white;
+        border: 1px solid white;
+        .border-radius(1px);
+        .box-shadow(0 1px 1px rgba(0, 0, 0, 0.1));
+        display: block;
+        margin: -2px 0 0;
+    }
 }
 .notification-icon {
     line-height: 25px;

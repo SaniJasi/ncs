@@ -44,5 +44,20 @@ $(document).ready(function(){
 
     //------------------------------------------------------------------------//
 
+    //accordion
+    $('.open-accordion').on('click',function(){
+        if ($(this).hasClass('active')) {
+            $(this).removeClass('active');
+            $(this).parents('.accordion').find('.accordion-text').slideUp();
+        }else{
+            $('.open-accordion').removeClass('active');
+            $('.accordion-text').slideUp();
+            $(this).addClass('active');
+            $(this).parents('.accordion').find('.accordion-text').slideDown();
+        }
+    });
+
+    //------------------------------------------------------------------------//
+
 });//document ready
 

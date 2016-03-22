@@ -1,10 +1,10 @@
 @font-face {
     font-family: 'icomoon';
-    src:    url('fonts/icomoon.eot?7ck2wl');
-    src:    url('fonts/icomoon.eot?7ck2wl#iefix') format('embedded-opentype'),
-        url('fonts/icomoon.ttf?7ck2wl') format('truetype'),
-        url('fonts/icomoon.woff?7ck2wl') format('woff'),
-        url('fonts/icomoon.svg?7ck2wl#icomoon') format('svg');
+    src:    url('fonts/icomoon.eot?591ua8');
+    src:    url('fonts/icomoon.eot?591ua8#iefix') format('embedded-opentype'),
+        url('fonts/icomoon.ttf?591ua8') format('truetype'),
+        url('fonts/icomoon.woff?591ua8') format('woff'),
+        url('fonts/icomoon.svg?591ua8#icomoon') format('svg');
     font-weight: normal;
     font-style: normal;
 }
@@ -24,6 +24,27 @@
     -moz-osx-font-smoothing: grayscale;
 }
 
+.icon-minus:before {
+    content: "\e939";
+}
+.icon-blood:before {
+    content: "\e933";
+}
+.icon-cord-blood:before {
+    content: "\e934";
+}
+.icon-milk:before {
+    content: "\e935";
+}
+.icon-hair:before {
+    content: "\e936";
+}
+.icon-participant:before {
+    content: "\e937";
+}
+.icon-meconium:before {
+    content: "\e938";
+}
 .icon-download:before {
     content: "\e914";
 }
