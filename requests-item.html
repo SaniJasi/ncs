@@ -228,11 +228,82 @@
                                     <h2>Votes – approved <em><strong>46</strong> / 135</em></h2>
                                 </div><!-- /.rl-left-part -->
                                 <div class="rl-right-part">
-                                    <a href="#" class="request-link table-link-blue">Assign Voters</a>
-                                    <a href="#" class="request-link table-link-green"><span class="icon icon-add"></span>Add Vote</a>
+                                    <a href="#" class="request-link table-link-blue open-voters">Assign Voters</a>
+                                    <a href="#" class="request-link table-link-green open-vote"><span class="icon icon-add"></span>Add Vote</a>
                                 </div><!-- /.rl-right-part -->
                             </div><!-- /.request-title -->
                             <div class="request-info-white request-votes-list clearfix">
+                                <div class="vote-box clearfix">
+                                    <div class="wysiwyg-box clearfix">
+                                        <div class="wysiwyg-editor">
+                                            <img src="upload/wysiwyg.jpg" alt="">
+                                        </div><!-- /.wysiwyg-editor -->
+                                        <a href="#" class="attach-link"><span class="icon icon-attach"></span></a>
+                                    </div><!-- /.wysiwyg-box -->
+                                    <div class="form-element-box clearfix">
+                                        <label>Vote</label>
+                                        <div class="select-box">
+                                            <select class="select">
+                                                <option value="No Yet Voted">No Yet Voted</option>
+                                            </select>
+                                        </div><!-- /.select-box -->
+                                    </div><!-- /.form-element-box -->
+                                    <div class="form-element-box clearfix">
+                                        <label>Vote</label>
+                                        <div class="input-text-box clearfix">
+                                            <input type="text" class="input-text">
+                                            <span class="icon icon-edit icon-gray"></span>
+                                        </div><!-- /.select-box -->
+                                    </div><!-- /.form-element-box -->
+                                    <a href="#" class="request-link table-link-blue vote-now"><span class="icon icon-vote"></span>Vote</a>
+                                    <a href="#" class="request-link table-link-blue close-vote">Cancel</a>
+                                </div><!-- /.vote-box -->
+                                <div class="votes-box clearfix">
+                                    <table>
+                                        <tr>
+                                            <th>User</th>
+                                            <th>Date</th>
+                                        </tr>
+                                        <tr>
+                                            <td>
+                                                <div class="checkbox-box">
+                                                    <input type="checkbox" class="checkbox" id="user-1">
+                                                    <label for="user-1"><span></span>Blake Rice</label>
+                                                </div><!-- /.checkbox-box -->
+                                            </td>
+                                            <td>Jan 5, 2016</td>
+                                        </tr>
+                                        <tr>
+                                            <td>
+                                                <div class="checkbox-box">
+                                                    <input type="checkbox" class="checkbox" id="user-2">
+                                                    <label for="user-2"><span></span>Barbara Gutierrez</label>
+                                                </div><!-- /.checkbox-box -->
+                                            </td>
+                                            <td>Jan 5, 2016</td>
+                                        </tr>
+                                        <tr>
+                                            <td>
+                                                <div class="checkbox-box">
+                                                    <input type="checkbox" class="checkbox" id="user-3">
+                                                    <label for="user-3"><span></span>Blake Rice</label>
+                                                </div><!-- /.checkbox-box -->
+                                            </td>
+                                            <td>Jan 5, 2016</td>
+                                        </tr>
+                                        <tr>
+                                            <td>
+                                                <div class="checkbox-box">
+                                                    <input type="checkbox" class="checkbox" id="user-4">
+                                                    <label for="user-4"><span></span>Barbara Gutierrez</label>
+                                                </div><!-- /.checkbox-box -->
+                                            </td>
+                                            <td>Jan 5, 2016</td>
+                                        </tr>
+                                    </table>
+                                    <a href="#" class="request-link table-link-blue assingn-voters"><span class="icon icon-check"></span>Assign Selected Voters</a>
+                                    <a href="#" class="request-link table-link-green add-voter"><span class="icon icon-add"></span>Add a Voter</a>
+                                </div><!-- /.votes-box -->
                                 <div class="custom-scroll">
                                     <table>
                                         <tr>
@@ -250,7 +321,7 @@
                                             </td>
                                             <td>
                                                 Jan 5, 2016   2:34 PM
-                                                <a href="#" class="remove-status-row"><span class="icon icon-delete icon-red"></span></a>
+                                                <a href="#delete-request" class="remove-status-row open-popup"><span class="icon icon-delete icon-red"></span></a>
                                             </td>
                                         </tr>
                                         <tr>
@@ -263,7 +334,7 @@
                                             </td>
                                             <td>
                                                 Jan 5, 2016   2:34 PM
-                                                <a href="#" class="remove-status-row"><span class="icon icon-delete"></span></a>
+                                                <a href="#delete-request" class="remove-status-row open-popup"><span class="icon icon-delete"></span></a>
                                             </td>
                                         </tr>
                                         <tr>
@@ -276,7 +347,7 @@
                                             </td>
                                             <td>
                                                 Jan 5, 2016   2:34 PM
-                                                <a href="#" class="remove-status-row"><span class="icon icon-delete icon-red"></span></a>
+                                                <a href="#delete-request" class="remove-status-row open-popup"><span class="icon icon-delete icon-red"></span></a>
                                             </td>
                                         </tr>
                                         <tr>
@@ -289,7 +360,7 @@
                                             </td>
                                             <td>
                                                 Jan 5, 2016   2:34 PM
-                                                <a href="#" class="remove-status-row"><span class="icon icon-delete"></span></a>
+                                                <a href="#delete-request" class="remove-status-row open-popup"><span class="icon icon-delete"></span></a>
                                             </td>
                                         </tr>
                                         <tr>
@@ -302,7 +373,7 @@
                                             </td>
                                             <td>
                                                 Jan 5, 2016   2:34 PM
-                                                <a href="#" class="remove-status-row"><span class="icon icon-delete icon-red"></span></a>
+                                                <a href="#delete-request" class="remove-status-row open-popup"><span class="icon icon-delete icon-red"></span></a>
                                             </td>
                                         </tr>
                                         <tr>
@@ -315,7 +386,7 @@
                                             </td>
                                             <td>
                                                 Jan 5, 2016   2:34 PM
-                                                <a href="#" class="remove-status-row"><span class="icon icon-delete"></span></a>
+                                                <a href="#delete-request" class="remove-status-row open-popup"><span class="icon icon-delete"></span></a>
                                             </td>
                                         </tr>
                                         <tr>
@@ -328,7 +399,7 @@
                                             </td>
                                             <td>
                                                 Jan 5, 2016   2:34 PM
-                                                <a href="#" class="remove-status-row"><span class="icon icon-delete icon-red"></span></a>
+                                                <a href="#delete-request" class="remove-status-row open-popup"><span class="icon icon-delete icon-red"></span></a>
                                             </td>
                                         </tr>
                                         <tr>
@@ -341,87 +412,116 @@
                                             </td>
                                             <td>
                                                 Jan 5, 2016   2:34 PM
-                                                <a href="#" class="remove-status-row"><span class="icon icon-delete icon-red"></span></a>
+                                                <a href="#delete-request" class="remove-status-row open-popup"><span class="icon icon-delete icon-red"></span></a>
                                             </td>
                                         </tr>
                                     </table>
-                                </div>
+                                </div><!-- /.custom scroll -->
+                                <div class="more-box">
+                                    <a class="more-link show-votes" href="#">23 more votes<span class="icon icon-arrow-bottom"></span></a>
+                                </div><!-- /.more-box -->
                             </div><!-- /.request-info-white -->
+                        </div><!-- /.request-box -->
+                        <div class="request-box">
                             <div class="request-title">
-                                <h2>Recipient Information</h2>
+                                <div class="rl-left-part">
+                                    <a href="#" class="collapse-request"><span class="icon icon-arrow-bottom"></span></a>
+                                    <h2>25 Comments <small>22 <em>New</em></small></h2>
+                                </div><!-- /.rl-left-part -->
+                                <div class="rl-right-part">
+                                    <a href="#" class="request-link table-link-green"><span class="icon icon-add"></span>Create Message</a>
+                                </div><!-- /.rl-right-part -->
                             </div><!-- /.request-title -->
-                            <div class="request-info-white clearfix">
-                                <table>
-                                    <tr>
-                                        <td>
-                                            <h2>Institution type</h2>
-                                            <p>Commercial</p>
-                                        </td>
-                                        <td>
-                                            <h2>Years in scientific research</h2>
-                                            <p>5 - 10</p>
-                                        </td>
-                                    </tr>  
-                                    <tr>
-                                        <td>
-                                            <h2>Funding currently available for this research?</h2>
-                                            <p>No</p>
-                                        </td>
-                                        <td>
-                                            <h2>If no and funding is not yet available, please indicate anticipated funding source</h2>
-                                            <p>Private Foundation</p>
-                                        </td>
-                                    </tr>  
-                                </table>
-                            </div><!-- /.request-info-white -->
-                            <div class="request-title">
-                                <h2>Subject Characteristics</h2>
-                            </div><!-- /.request-title -->
-                            <div class="request-info-white clearfix">
-                                <table>
-                                    <tr>
-                                        <td>
-                                            <h2><span>Subject Characteristics</span></h2>
-                                            <p>Research Plan: These days there are many kinds of diseases that are just dismissed by people as if they are not important. Discoloration, spots or rashes in any part of the bodies are deemed as irregularities but are not really candidates for urgent treatment. </p>
-                                        </td>
-                                    </tr> 
-                                </table>
-                            </div><!-- /.request-info-white -->
-                            <div class="request-title">
-                                <h2>Documents</h2>
-                                <a href="#" class="request-link table-link-blue"><span class="icon icon-upload"></span>Upload File</a>
-                            </div><!-- /.request-title -->
-                            <div class="request-info-white request-docs-list clearfix">
-                                <table>
-                                    <tr>
-                                        <th width="45">Type</th>
-                                        <th width="70">Size</th>
-                                        <th width="165">NAme</th>
-                                        <th width="130">By</th>
-                                        <th>Date</th>
-                                    </tr>
-                                    <tr>
-                                        <td><span class="icon icon-doc icon-blue"></span></td>
-                                        <td>234 Kb</td>
-                                        <td>Non Steroidal Anti Inflammatory Drugs </td>
-                                        <td>Blake Rice</td>
-                                        <td>Jan 5, 2016 <br> 2:34 PM</td>
-                                    </tr>
-                                    <tr>
-                                        <td><span class="icon icon-pdf icon-green"></span></td>
-                                        <td>234 Kb</td>
-                                        <td>Non Steroidal Anti Inflammatory Drugs </td>
-                                        <td>Blake Rice</td>
-                                        <td>Jan 5, 2016 <br> 2:34 PM</td>
-                                    </tr>
-                                    <tr>
-                                        <td><span class="icon icon-doc icon-blue"></span></td>
-                                        <td>234 Kb</td>
-                                        <td>Non Steroidal Anti Inflammatory Drugs </td>
-                                        <td>Blake Rice</td>
-                                        <td>Jan 5, 2016 <br> 2:34 PM</td>
-                                    </tr>
-                                </table>
+                            <div class="request-info-white request-votes-list clearfix">
+                                <div class="custom-scroll cs-comments">
+                                    <div class="comment-box clearfix">
+                                        <img src="upload/kids.jpg" alt="">
+                                        <div class="commens-body">
+                                            <div class="comments-top">
+                                                <div class="comments-date">Jan 5, 2016   2:34 PM</div>
+                                                <h2>Katharine Russell</h2>
+                                                <a href="mailto:mohammad_little@onie.us">mohammad_little@onie.us</a>
+                                            </div><!-- /.comments-top -->
+                                            <div class="comments-text">
+                                                <h2>Pending NIH Review</h2>
+                                                <p>Beauty is one of the most craved things in the world. Who does not want it? For, the female species on this Earth is the marvel of beauty?</p>
+                                            </div><!-- /.comments-text -->
+                                        </div><!-- /.commens-body -->
+                                    </div><!-- /.comment-box -->
+                                    <div class="comment-box clearfix">
+                                        <img src="upload/kids.jpg" alt="">
+                                        <div class="commens-body">
+                                            <div class="comments-top">
+                                                <div class="comments-date">Jan 5, 2016   2:34 PM</div>
+                                                <h2>Katharine Russell</h2>
+                                                <a href="mailto:mohammad_little@onie.us">mohammad_little@onie.us</a>
+                                            </div><!-- /.comments-top -->
+                                            <div class="comments-text">
+                                                <h2>Pending NIH Review</h2>
+                                                <p>Beauty is one of the most craved things in the world. Who does not want it? For, the female species on this Earth is the marvel of beauty?</p>
+                                            </div><!-- /.comments-text -->
+                                        </div><!-- /.commens-body -->
+                                    </div><!-- /.comment-box -->
+                                    <div class="comment-box clearfix">
+                                        <img src="upload/kids.jpg" alt="">
+                                        <div class="commens-body">
+                                            <div class="comments-top">
+                                                <div class="comments-date">Jan 5, 2016   2:34 PM</div>
+                                                <h2>Katharine Russell</h2>
+                                                <a href="mailto:mohammad_little@onie.us">mohammad_little@onie.us</a>
+                                            </div><!-- /.comments-top -->
+                                            <div class="comments-text">
+                                                <h2>Pending NIH Review</h2>
+                                                <p>Beauty is one of the most craved things in the world. Who does not want it? For, the female species on this Earth is the marvel of beauty?</p>
+                                            </div><!-- /.comments-text -->
+                                        </div><!-- /.commens-body -->
+                                    </div><!-- /.comment-box -->
+                                    <div class="comment-box clearfix">
+                                        <img src="upload/kids.jpg" alt="">
+                                        <div class="commens-body">
+                                            <div class="comments-top">
+                                                <div class="comments-date">Jan 5, 2016   2:34 PM</div>
+                                                <h2>Katharine Russell</h2>
+                                                <a href="mailto:mohammad_little@onie.us">mohammad_little@onie.us</a>
+                                            </div><!-- /.comments-top -->
+                                            <div class="comments-text">
+                                                <h2>Pending NIH Review</h2>
+                                                <p>Beauty is one of the most craved things in the world. Who does not want it? For, the female species on this Earth is the marvel of beauty?</p>
+                                            </div><!-- /.comments-text -->
+                                        </div><!-- /.commens-body -->
+                                    </div><!-- /.comment-box -->
+                                    <div class="comment-box clearfix">
+                                        <img src="upload/kids.jpg" alt="">
+                                        <div class="commens-body">
+                                            <div class="comments-top">
+                                                <div class="comments-date">Jan 5, 2016   2:34 PM</div>
+                                                <h2>Katharine Russell</h2>
+                                                <a href="mailto:mohammad_little@onie.us">mohammad_little@onie.us</a>
+                                            </div><!-- /.comments-top -->
+                                            <div class="comments-text">
+                                                <h2>Pending NIH Review</h2>
+                                                <p>Beauty is one of the most craved things in the world. Who does not want it? For, the female species on this Earth is the marvel of beauty?</p>
+                                            </div><!-- /.comments-text -->
+                                        </div><!-- /.commens-body -->
+                                    </div><!-- /.comment-box -->
+                                    <div class="comment-box clearfix">
+                                        <img src="upload/kids.jpg" alt="">
+                                        <div class="commens-body">
+                                            <div class="comments-top">
+                                                <div class="comments-date">Jan 5, 2016   2:34 PM</div>
+                                                <h2>Katharine Russell</h2>
+                                                <a href="mailto:mohammad_little@onie.us">mohammad_little@onie.us</a>
+                                            </div><!-- /.comments-top -->
+                                            <div class="comments-text">
+                                                <h2>Pending NIH Review</h2>
+                                                <p>Beauty is one of the most craved things in the world. Who does not want it? For, the female species on this Earth is the marvel of beauty?</p>
+                                            </div><!-- /.comments-text -->
+                                        </div><!-- /.commens-body -->
+                                    </div><!-- /.comment-box -->
+                                </div><!-- /.custom scroll -->
+                                <div class="more-box">
+                                    <a class="more-link show-votes" href="#">3 more comments<span class="icon icon-arrow-bottom"></span></a>
+                                </div><!-- /.more-box -->
                             </div><!-- /.request-info-white -->
                         </div><!-- /.request-box -->
                     </div><!-- /.col -->
@@ -452,6 +552,25 @@
             </div><!-- /.footer-box -->
         </div><!-- /.wrap -->
     </footer>
+    <div class="popup-box" id="delete-request" style="display: block">
+        <div class="popup-table">
+            <div class="popup-table-cell">
+                <div class="popup clearfix">
+                    <a href="#" class="close-popup icon icon-close"></a>
+                    <div class="popup-title">
+                        <h2>Are you sure you want to delete this request?</h2>
+                    </div><!-- /.popup-title -->
+                    <div class="popup-text">
+                        <p>Any associated comments, attachments, and documents will also be deleted.</p>
+                    </div><!-- /.popup-text -->
+                    <div class="request-delete-links clearfix">
+                        <a href="#" class="request-close-popup"><span class="icon icon-arrow-right"></span>No, Keep Request</a>
+                        <a href="#" class="permanently-delete request-close-popup"><span class="icon icon-delete"></span>Yes, Delete Request</a>
+                    </div><!-- /.request-delete-links -->
+                </div><!-- /.popup -->
+            </div><!-- /.popup-table-cell -->
+        </div><!-- /.popup-table -->
+    </div><!-- /.popup-box -->
     <script src="js/jquery.js"></script>
     <script src="js/library.js"></script>
     <script src="js/script.js"></script>

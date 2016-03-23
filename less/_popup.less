@@ -180,3 +180,53 @@
         }
     }
 }
+#delete-request {
+    background-color: fade(black,70%);
+    .popup {
+        max-width: 620px;
+    }
+    .popup-title {
+        padding: 60px 0 20px;
+        h2 {
+            font-size: 24px;
+        }
+    }
+    .popup-text {
+        max-width: 320px;
+        margin-bottom: 35px;
+    }
+}
+.request-delete-links {
+    max-width: 440px;
+    margin: 0 auto 40px;
+    a {
+        font-size: 16px;
+        .flex-box();
+        .align-items(center);
+        padding: 0 20px;
+        height: 44px;
+        font-weight: @medium;
+        border: 1px solid fade(@l,50%);
+        margin: 0 0 0 10px;
+        text-decoration: none;
+        .transition(.15s);
+        float: right;
+        &:hover {
+            background: fade(@gray,5%);
+        }
+        &:first-child {
+            float: left;
+            .icon {
+                font-size: 10px;
+                .rotate(180deg);
+            }
+        }
+    }
+    .icon {
+        margin-right: 10px;
+    }
+    .permanently-delete {
+        border-color: fade(@red,50%);
+        color: @red;
+    }
+}
