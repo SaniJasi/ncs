@@ -1522,7 +1522,7 @@ footer .logo a:before {
   color: #000;
   font-size: 100%;
   line-height: 3.3125;
-  font-weight: 700;
+  font-weight: 500;
   padding: 0 20px;
 }
 .sidebar-links li a:after {
@@ -2550,18 +2550,21 @@ footer .logo a:before {
 .top-search-box .select-box {
   width: 360px;
 }
-.ivs-table th {
+.ivs-instrument-page article.small-paragraph {
+  font-weight: 500;
+}
+.ivs-instrument-page .ivs-table th {
   padding: 14px 5px 14px 18px;
   line-height: 1;
 }
-.ivs-table td {
-  font-weight: 600;
+.ivs-instrument-page .ivs-table td {
+  font-weight: 500;
   color: #000;
 }
-.ivs-table td h3 {
-  font-weight: 600;
+.ivs-instrument-page .ivs-table td h3 {
+  font-weight: 500;
   color: #000;
 }
-.ivs-table td small {
-  font-weight: 400;
+.ivs-instrument-page .ivs-table td small {
+  font-weight: 500;
 }
