@@ -10,6 +10,9 @@
 .sidebar-two-column {
     width: 240*2px;    
 }
+.sidebar-one-half {
+    width: 240*1.5px;    
+}
 .arrow-title {
     background: url(../images/sprite.png) no-repeat -342px -121px;
     .size(8px, 13px);
@@ -81,5 +84,33 @@
         }
     }
 }
-
+.sidebar-links{
+    border:1px solid #d9d9d9;
+    li{
+        a{
+            display: block;
+            color: #000;
+            .font(16, 53);
+            font-weight: @bold;
+            padding: 0 20px;
+            &:after{
+                font-family: 'icomoon';
+                content: "\e900";
+                float: right;
+                color: #cbcbcb;
+                .font(14, 53);
+            }
+            &:hover, &.active{
+                text-decoration: none;
+                color: @link;
+                &:after{
+                    color: @link;
+                }
+            }
+        }
+        &+li{
+            border-top:1px solid #d9d9d9;
+        }
+    }
+}
 

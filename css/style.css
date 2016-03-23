@@ -1316,6 +1316,9 @@ footer .logo a:before {
 .content .page-title {
   margin: 0 0 25px;
 }
+.content-one-half {
+  width: 760px;
+}
 .content-small {
   width: 640px;
 }
@@ -1436,6 +1439,9 @@ footer .logo a:before {
 .sidebar-two-column {
   width: 480px;
 }
+.sidebar-one-half {
+  width: 360px;
+}
 .arrow-title {
   background: url(../images/sprite.png) no-repeat -342px -121px;
   width: 8px;
@@ -1508,6 +1514,37 @@ footer .logo a:before {
   font-size: 15px;
   content: '\e92a';
 }
+.sidebar-links {
+  border: 1px solid #d9d9d9;
+}
+.sidebar-links li a {
+  display: block;
+  color: #000;
+  font-size: 100%;
+  line-height: 3.3125;
+  font-weight: 700;
+  padding: 0 20px;
+}
+.sidebar-links li a:after {
+  font-family: 'icomoon';
+  content: "\e900";
+  float: right;
+  color: #cbcbcb;
+  font-size: 87.5%;
+  line-height: 3.78571429;
+}
+.sidebar-links li a:hover,
+.sidebar-links li a.active {
+  text-decoration: none;
+  color: #0363b4;
+}
+.sidebar-links li a:hover:after,
+.sidebar-links li a.active:after {
+  color: #0363b4;
+}
+.sidebar-links li + li {
+  border-top: 1px solid #d9d9d9;
+}
 .text h1,
 .text h2,
 .text h3,
@@ -1548,6 +1585,15 @@ footer .logo a:before {
 .text ol {
   list-style: outside decimal;
   padding-left: 15px;
+}
+.main-table .vertical-top {
+  vertical-align: top;
+}
+.main-table .vertical-middle {
+  vertical-align: middle;
+}
+.main-table .vertical-bottom {
+  vertical-align: bottom;
 }
 .index-page header {
   background-image: url(../images/header-index.jpg);
@@ -2503,4 +2549,19 @@ footer .logo a:before {
 }
 .top-search-box .select-box {
   width: 360px;
+}
+.ivs-table th {
+  padding: 14px 5px 14px 18px;
+  line-height: 1;
+}
+.ivs-table td {
+  font-weight: 600;
+  color: #000;
+}
+.ivs-table td h3 {
+  font-weight: 600;
+  color: #000;
+}
+.ivs-table td small {
+  font-weight: 400;
 }
