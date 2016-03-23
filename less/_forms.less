@@ -57,7 +57,19 @@
     }
 }
 .button {
-    .sizing;
+  font-size: 18px;
+  color: @w;
+  font-weight: @bold;
+  background-color: @l;
+  border: 0;
+  .border-radius(1px);
+  .box-shadow(0 1px 1px rgba(0, 0, 0, 0.1));
+  min-width: 167px;
+  height: 50px;
+  .transition(.2s);
+  &:hover {
+    background-color: fade(@l,90%); 
+  }
 }
 .checkbox-box {
     position: relative;
